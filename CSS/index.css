@@ -1,0 +1,43 @@
+.details {
+  background-color: white;
+  text-align: center;
+  font-size: 12pt;
+  width: 500px;
+  margin: 25px auto;
+  padding-top: 10px;
+  border-radius: 5px;
+}
+.poster-description {
+  width: 90%;
+}
+body {
+  background-color: darkred !important;
+}
+
+.custom-col {
+  flex: 0;
+}
+.carousel {
+  height: 500px;
+}
+.h-500px {
+  height: 500px;
+}
+
+.footer {
+  background-color: black;
+  display: flex;
+  height: 50px;
+}
+.footer-container{
+  width: 100%;
+ 
+}
+.footer-container p {
+  align-items: center;
+  color: white;
+  font-size: 10pt;
+  text-align: center;
+  padding: 10px;
+  
+}
