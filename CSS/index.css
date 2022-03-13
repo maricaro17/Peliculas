@@ -29,9 +29,8 @@ body {
   display: flex;
   height: 50px;
 }
-.footer-container{
+.footer-container {
   width: 100%;
- 
 }
 .footer-container p {
   align-items: center;
@@ -39,5 +38,31 @@ body {
   font-size: 10pt;
   text-align: center;
   padding: 10px;
-  
+}
+
+@media screen and (max-width: 479px) {
+  .carousel,
+  .carousel-inner,
+  .carousel-item,
+  .h-500px {
+    height: 150px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 599px) {
+  .carousel,
+  .carousel-inner,
+  .carousel-item,
+  .h-500px {
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  .carousel,
+  .carousel-inner,
+  .carousel-item,
+  .h-500px {
+    height: 250px;
+  }
 }
