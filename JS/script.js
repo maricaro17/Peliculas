@@ -1,4 +1,4 @@
-import { movies } from "./movies.js";
+import { movies } from "../movies.js";
 import { showDetails } from "./modules/showDetails.js";
 
 const click = (e) => {
