@@ -28,6 +28,7 @@ const submit = (e) => {
     users.push(data);
 
     localStorage.setItem("users", JSON.stringify(users));
+    alert("Registro exitoso");
     form.reset();
   } else {
     alert("Ya existe un usuario registrado con este numero de telefono");
